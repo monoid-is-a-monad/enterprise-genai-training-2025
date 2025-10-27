@@ -1,5 +1,8 @@
 # Contributing Guidelines
 
+**Enterprise GenAI Training Program**  
+**Provided by:** ADC ENGINEERING & CONSULTING LTD
+
 ## Purpose
 
 This document outlines the standards and procedures for contributing to the Enterprise GenAI Training Program materials.

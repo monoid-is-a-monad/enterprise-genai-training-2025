@@ -1,5 +1,7 @@
 # Week 2: Prompt Engineering & LLM Basics
 
+**Provided by:** ADC ENGINEERING & CONSULTING LTD
+
 **Duration:** 20 hours
 
 ## Overview

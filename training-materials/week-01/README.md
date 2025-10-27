@@ -1,4 +1,6 @@
-# Week 01: Introduction to Generative AI
+# Week 1: GenAI Introduction & Fundamentals
+
+**Provided by:** ADC ENGINEERING & CONSULTING LTD
 
 **Duration:** 20 hours
 

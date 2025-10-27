@@ -1,5 +1,7 @@
 # Enterprise GenAI Training Program 2025
 
+**Provided by:** ADC ENGINEERING & CONSULTING LTD
+
 **Training Period:** October 1, 2025 – December 31, 2025  
 **Duration:** 12 weeks (3 months)  
 **Total Hours:** 200 hours
@@ -147,4 +149,5 @@ This training material is proprietary and confidential. All rights reserved.
 
 ---
 
+**Training Provider:** ADC ENGINEERING & CONSULTING LTD  
 **Last Updated:** October 27, 2025

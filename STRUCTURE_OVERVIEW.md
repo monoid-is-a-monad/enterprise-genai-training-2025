@@ -1,5 +1,7 @@
 # Enterprise GenAI Training - Structure Overview
 
+**Provided by:** ADC ENGINEERING & CONSULTING LTD
+
 ## ✅ Structure Status: COMPLETE
 
 The repository is professionally organized with a comprehensive, code-first structure optimized for training delivery.
