@@ -952,6 +952,15 @@ Build a 3-step prompt chain for analyzing customer feedback (extract → categor
 - "Self-Consistency Improves Chain of Thought Reasoning in Language Models" (Wang et al., 2022)
 - "Tree of Thoughts: Deliberate Problem Solving with Large Language Models" (Yao et al., 2023)
 - OpenAI Prompting Guide - Advanced Techniques
+---
+
+## Review Questions
+
+## Repo Resources
+
+- [OpenAI API Cheatsheet (Python)](../resources/api-cheatsheet.md)
+- [References: Advanced Prompting & OpenAI API](../resources/references.md)
+- [Monitoring & Evaluation](../resources/monitoring-evaluation.md)
 
 ---
 

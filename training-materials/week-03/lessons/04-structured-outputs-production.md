@@ -1974,6 +1974,16 @@ print(json.dumps(dashboard, indent=2))
 
 ---
 
+## Repo Resources
+
+- [Structured Outputs Cheatsheet](../resources/structured-outputs-cheatsheet.md)
+- [References: Advanced Prompting & OpenAI API](../resources/references.md)
+- [Rate Limits, Retries & Backoff](../resources/retry-rate-limits.md)
+- [Monitoring & Evaluation](../resources/monitoring-evaluation.md)
+- [Example Snippets](../resources/example-snippets.md)
+
+---
+
 ## 🔗 Related Content
 
 - **Previous:** [Week 3 - Lesson 3: Function Calling & Tool Use](03-function-calling-tool-use.md)

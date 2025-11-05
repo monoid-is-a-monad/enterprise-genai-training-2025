@@ -1942,6 +1942,15 @@ graph TB
 
 ---
 
+## Repo Resources
+
+- [OpenAI API Cheatsheet (Python)](../resources/api-cheatsheet.md)
+- [References: Advanced Prompting & OpenAI API](../resources/references.md)
+- [Rate Limits, Retries & Backoff](../resources/retry-rate-limits.md)
+- [Monitoring & Evaluation](../resources/monitoring-evaluation.md)
+
+---
+
 ## 🔗 Related Content
 
 - **Previous:** [Week 3 - Lesson 1: Chain-of-Thought & Advanced Reasoning](01-chain-of-thought-advanced-reasoning.md)

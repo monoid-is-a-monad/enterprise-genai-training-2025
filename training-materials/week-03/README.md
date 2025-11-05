@@ -143,6 +143,15 @@ python-dotenv
 tenacity  # For retries
 ```
 
+### Repo Resources
+- [References: Advanced Prompting & OpenAI API](./resources/references.md)
+- [OpenAI API Cheatsheet (Python)](./resources/api-cheatsheet.md)
+- [Function Calling & Tool Use Cheatsheet](./resources/function-calling-cheatsheet.md)
+- [Structured Outputs Cheatsheet](./resources/structured-outputs-cheatsheet.md)
+- [Rate Limits, Retries & Backoff](./resources/retry-rate-limits.md)
+- [Monitoring & Evaluation](./resources/monitoring-evaluation.md)
+- [Example Snippets](./resources/example-snippets.md)
+
 ## Common Challenges & Solutions
 
 ### Challenge 1: CoT Not Working

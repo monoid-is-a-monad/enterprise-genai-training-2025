@@ -1687,6 +1687,15 @@ graph TB
 
 ---
 
+## Repo Resources
+
+- [Function Calling & Tool Use Cheatsheet](../resources/function-calling-cheatsheet.md)
+- [OpenAI API Cheatsheet (Python)](../resources/api-cheatsheet.md)
+- [References: Advanced Prompting & OpenAI API](../resources/references.md)
+- [Monitoring & Evaluation](../resources/monitoring-evaluation.md)
+
+---
+
 ## 🔗 Related Content
 
 - **Previous:** [Week 3 - Lesson 2: OpenAI API Mastery](02-openai-api-mastery.md)
