@@ -142,6 +142,16 @@ pypdf2  # For PDF processing
 python-dotenv
 ```
 
+### Repo Resources
+- Week 4 Resources Index: [resources/README.md](./resources/README.md)
+- References: [resources/references.md](./resources/references.md)
+- RAG Cheatsheet: [resources/rag-cheatsheet.md](./resources/rag-cheatsheet.md)
+- Chunking Strategies: [resources/chunking-strategies.md](./resources/chunking-strategies.md)
+- Hybrid Retrieval & Re-ranking: [resources/hybrid-reranking.md](./resources/hybrid-reranking.md)
+- Evaluation Metrics: [resources/evaluation-metrics.md](./resources/evaluation-metrics.md)
+- Monitoring in Production: [resources/monitoring-production.md](./resources/monitoring-production.md)
+- Example Snippets: [resources/example-snippets.md](./resources/example-snippets.md)
+
 ## Common Challenges & Solutions
 
 ### Challenge 1: Poor Retrieval Quality
