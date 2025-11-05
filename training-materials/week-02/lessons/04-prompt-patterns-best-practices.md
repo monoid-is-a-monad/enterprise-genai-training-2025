@@ -1847,6 +1847,16 @@ prompt = f"{task}\n\nIf uncertain, explain what's unclear and provide best answe
 
 ---
 
+## Repo Resources
+
+- [Prompt Engineering Cheatsheet](../resources/prompt-cheatsheet.md)
+- [Example Prompts (Copy & Adapt)](../resources/example-prompts.md)
+- [References: Prompt Engineering & LLM Basics](../resources/references.md)
+- [Tokenizer & Cost Tools](../resources/tokenizer-tools.md)
+- [Reading List (Deep Dives)](../resources/reading-list.md)
+
+---
+
 ## 📝 Review Questions
 
 1. When should you use a persona pattern vs. a format control pattern?

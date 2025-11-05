@@ -1613,6 +1613,16 @@ prompt = f"{question}\n\nLet's think step by step:"
 
 ---
 
+## Repo Resources
+
+- [Prompt Engineering Cheatsheet](../resources/prompt-cheatsheet.md)
+- [Example Prompts (Copy & Adapt)](../resources/example-prompts.md)
+- [References: Prompt Engineering & LLM Basics](../resources/references.md)
+- [Tokenizer & Cost Tools](../resources/tokenizer-tools.md)
+- [Reading List (Deep Dives)](../resources/reading-list.md)
+
+---
+
 ## 📝 Review Questions
 
 1. What is the key difference between zero-shot and few-shot CoT?

@@ -132,6 +132,13 @@ python-dotenv
 pandas
 ```
 
+### Repo Resources
+- [References: Prompt Engineering & LLM Basics](./resources/references.md)
+- [Prompt Engineering Cheatsheet](./resources/prompt-cheatsheet.md)
+- [Example Prompts (Copy & Adapt)](./resources/example-prompts.md)
+- [Tokenizer & Cost Tools](./resources/tokenizer-tools.md)
+- [Reading List (Deep Dives)](./resources/reading-list.md)
+
 ## Common Challenges & Solutions
 
 ### Challenge 1: Inconsistent Responses
