@@ -1,0 +1,53 @@
+{
+  "queries": [
+    {
+      "id": "q1",
+      "text": "What are the benefits of RAG systems?",
+      "relevant": ["doc_42", "doc_105", "doc_276"],
+      "relevant_graded": {
+        "doc_42": 3,
+        "doc_105": 2,
+        "doc_276": 1
+      }
+    },
+    {
+      "id": "q2",
+      "text": "How to tune HNSW index parameters?",
+      "relevant": ["doc_88", "doc_203"],
+      "relevant_graded": {
+        "doc_88": 3,
+        "doc_203": 2
+      }
+    },
+    {
+      "id": "q3",
+      "text": "Explain hybrid retrieval with BM25 and dense vectors",
+      "relevant": ["doc_15", "doc_142", "doc_309", "doc_445"],
+      "relevant_graded": {
+        "doc_15": 3,
+        "doc_142": 3,
+        "doc_309": 2,
+        "doc_445": 1
+      }
+    },
+    {
+      "id": "q4",
+      "text": "What is query rewriting in RAG pipelines?",
+      "relevant": ["doc_67", "doc_199"],
+      "relevant_graded": {
+        "doc_67": 3,
+        "doc_199": 2
+      }
+    },
+    {
+      "id": "q5",
+      "text": "Best practices for production RAG systems",
+      "relevant": ["doc_23", "doc_156", "doc_287"],
+      "relevant_graded": {
+        "doc_23": 3,
+        "doc_156": 2,
+        "doc_287": 2
+      }
+    }
+  ]
+}
