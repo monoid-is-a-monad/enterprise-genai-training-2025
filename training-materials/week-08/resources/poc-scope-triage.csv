@@ -1,0 +1,6 @@
+item,category,status,owner,notes
+Core retrieval pipeline,Must,In progress,Backend Lead,
+Guardrail moderation layer,Must,Ready,Security Lead,
+Observability dashboards,Should,Planned,SRE Lead,
+Personalization experiments,Could,Backlog,Product Analyst,
+Offline batch preprocess,Won't,Deferred,QE Lead,

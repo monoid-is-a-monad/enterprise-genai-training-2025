@@ -1,0 +1,11 @@
+workstream,metric,target,current,owner,status,notes
+Core Retrieval & Orchestration,Median latency (s),<=3,,Backend Lead,Pending,
+Core Retrieval & Orchestration,Success rate (%),>=95,,Backend Lead,Pending,
+Guardrails & Safety,Blocked red-team prompts (%),100,,Security Lead,Pending,
+Guardrails & Safety,PII detection coverage (%),>=98,,Security Lead,Pending,
+Observability & Analytics,Trace coverage (% of critical flows),>=90,,SRE Lead,Pending,
+Observability & Analytics,Dashboard freshness (minutes),<=10,,SRE Lead,Pending,
+Experience & Demo Layer,Demo script completeness (% scenes),100,,Product Manager,Pending,
+Experience & Demo Layer,User journey satisfaction (pilot rating),>=4.0/5,,UX Researcher,Pending,
+Program Management,Risk register reviewed (per day),>=2 reviews/day,,Program Manager,Pending,
+Program Management,Stakeholder update sent (per plan),100,,Program Manager,Pending,

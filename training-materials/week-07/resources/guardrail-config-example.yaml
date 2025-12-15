@@ -1,0 +1,49 @@
+moderation:
+  providers:
+    - type: blocklist
+      patterns:
+        - "(?i)ignore previous"
+        - "(?i)make a bomb"
+        - "(?i)share.*credentials"
+    - type: openai
+      model: omni-moderation-latest
+      retry:
+        attempts: 3
+        backoff: 0.5
+pii:
+  analyzer: presidio
+  anonymizer:
+    strategy: replace
+    mapping:
+      PERSON: "[PERSON]"
+      EMAIL_ADDRESS: "[EMAIL]"
+      ACCOUNT_ID: "[ACCOUNT]"
+rules:
+  - name: no_financial_advice
+    severity: critical
+    predicate: "context.user_segment == 'retail' and 'financial advice' in context.intent"
+    remediation: "Route to regulated advisor flow"
+  - name: restrict_beta_feature
+    severity: warning
+    predicate: "context.feature == 'beta_tool' and not context.beta_whitelist"
+    remediation: "Display beta enrollment instructions"
+  - name: escalate_high_value_accounts
+    severity: warning
+    predicate: "context.account_tier == 'platinum'"
+    remediation: "Require human review"
+toxicity:
+  model: unitary/toxic-bert
+  threshold: 0.7
+pipeline:
+  execution_order:
+    - moderation
+    - pii
+    - rules
+    - toxicity
+  stop_on_block: true
+logging:
+  enable: true
+  destination: langfuse
+  span_attributes:
+    - guardrail.severity
+    - guardrail.blocked

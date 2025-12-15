@@ -1,0 +1,22 @@
+run_id_prefix: nightly-redteam
+schedule: "0 3 * * *"  # 3 AM UTC
+attacks:
+  template_file: ../resources/sample-attack-templates.json
+  limit_per_family: 50
+  shuffle: true
+pipeline:
+  concurrency: 8
+  timeout_seconds: 45
+  guardrail_config: ../labs/solutions/guardrail-config-example.yaml
+reporting:
+  coverage_threshold:
+    critical: 0.95
+    high: 0.9
+  notify:
+    - channel: "#genai-guardrails"
+      type: slack
+    - channel: "security-ops@enterprise.com"
+      type: email
+artifacts:
+  output_dir: ../../artifacts/nightly
+  keep_days: 14

@@ -1,0 +1,10 @@
+metric,target,current_value,status,owner,evidence_link,notes
+fairness_difference,<=0.10,,TBD,,,
+toxicity_rate,<=0.02,,TBD,,,
+pii_leak_rate,0,,TBD,,,
+guardrail_policy_coverage,>=0.98,,TBD,,,
+policy_review_cadence,<=30 days,,TBD,,,
+audit_evidence_freshness,<=7 days,,TBD,,,
+incident_response_time_minutes,<=30,,TBD,,,
+stakeholder_brief_frequency,weekly,,TBD,,,
+policy_exception_backlog,<=3 open,,TBD,,,

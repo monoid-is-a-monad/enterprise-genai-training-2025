@@ -1,0 +1,11 @@
+metric,target,baseline,status,owner,evidence_link,notes
+availability,>=99.5%,,TBD,,,
+latency_p95_ms,<=2000,,TBD,,,
+quality_helpfulness,>=4.2,,TBD,,,
+guardrail_block_rate,>=0.95,,TBD,,,
+output_drift_score,<=0.25,,TBD,,,
+cost_per_request_usd,<=0.30,,TBD,,,
+incident_mtta_minutes,<=10,,TBD,,,
+incident_mttr_minutes,<=45,,TBD,,,
+telemetry_freshness_minutes,<=5,,TBD,,,
+continuous_eval_cadence,Scheduled (daily),,TBD,,,
