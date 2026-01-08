@@ -55,7 +55,7 @@ By the end of this week, you will be able to:
 
 ### Labs
 
-1. **[Lab 1: First Steps with OpenAI API](labs/lab-01-openai-basics.ipynb)** (120 min)
+1. **[Lab 1: First Steps with OpenAI API](labs/lab-01-first-steps-openai-api.ipynb)** (120 min)
    - Environment setup
    - Making your first API call
    - Understanding parameters (temperature, max_tokens, etc.)
